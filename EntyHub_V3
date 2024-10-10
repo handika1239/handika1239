@@ -9507,13 +9507,13 @@ local function wl(key)
         Window:SelectTab(1)
         Fluent:Notify(
             {
-                Title = "Tsuo Hub",
+                Title = "Enty Hub",
                 Content = "The script has been loaded successful.",
                 Duration = 15
             }
         )
             else
-        RemoveKey()
+        RemoveKey('true')
         Notify.New('key expired / does not exist', 5)
     	print('key expired / does not exist')
         sign_match = nil
